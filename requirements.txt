@@ -1,0 +1,8 @@
+flask
+requests
+langchain-community
+langchain-huggingface
+numpy
+sounddevice
+whisper
+pyttsx3

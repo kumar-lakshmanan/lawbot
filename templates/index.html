@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Compass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="theme-light">
+    <div class="page-shell">
+        <header id="header_section" class="header_section">
+            <div class="brand-block">
+                <div class="brand-title">LEGAL COMPASS</div>
+                <div class="brand-tag">Navigate your legal options before taking the next step.</div>
+            </div>
+
+            <div class="header-right">
+                <div class="header-right-row">
+                    <nav class="header-nav" aria-label="Main navigation">
+                        <button id="themeToggle" class="nav-btn theme-btn" type="button">🌙 Dark</button>
+                        <button id="export" class="nav-btn" type="button">Export</button>
+                        <button id="clear" class="nav-btn danger-btn" type="button">Clear</button>
+                    </nav>
+                    <img src="{{ url_for('static', filename='img.png') }}" alt="logo" class="header-logo">
+                </div>
+                <div class="header-right-text">Developed by Mukundan K</div>
+            </div>
+        </header>
+
+        <main id="output_section" class="output_section">
+            <div id="output" class="output" aria-live="polite"></div>
+        </main>
+
+        <section id="input_section" class="input_section">
+            <button id="tellIssue" class="verify-btn" style="width:40px;">Tell the Issue</button>
+        </section>
+
+        <!-- Modal for waiting and transcript -->
+        <div id="modal" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center;">
+            <div class="modal-content" style="background:white; padding:20px; border-radius:8px; max-width:500px; width:90%; text-align:center;">
+                <p id="modalMessage">Please wait...</p>
+                <div id="modalButtons" style="margin-top:20px; display:flex; justify-content:space-around;">
+                    <button id="modalVerify" class="verify-btn" style="display:none;">Verify</button>
+                    <button id="modalCancel" class="danger-btn" style="display:none;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
