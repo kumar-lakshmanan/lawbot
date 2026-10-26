@@ -5,6 +5,8 @@ import tempfile
 import wave
 import pyttsx3
 import threading
+import os
+import shutil
 
 # Load the whisper model ('tiny', 'base', 'small', 'medium', 'large')
 # 'base' or 'small' is usually a great sweet spot for speed and accuracy on a personal computer
@@ -12,6 +14,13 @@ print("📥 Loading Whisper model...")
 model = whisper.load_model("base")
 
 SAMPLE_RATE = 16000
+
+# Set ffmpeg path for whisper when supported by the installed version.
+# Modern openai-whisper versions no longer expose set_ffmpeg_path(), and for
+# WAV inputs it is not required.
+ffmpeg_path = shutil.which("ffmpeg")
+if ffmpeg_path and hasattr(whisper, "set_ffmpeg_path"):
+    whisper.set_ffmpeg_path(ffmpeg_path)
 
 def record_audio(DURATION=20):
     """Record audio for DURATION seconds and return the temp wav file path."""
@@ -32,6 +41,7 @@ def record_audio(DURATION=20):
 def audio_transcribe(tmp_audio_file):
     """Transcribe the given wav file using Whisper and return the text."""
     result = model.transcribe(audio=tmp_audio_file)
+    print(result)
     return result["text"]
 
 # Backwards compatibility: record_and_transcribe uses the new functions

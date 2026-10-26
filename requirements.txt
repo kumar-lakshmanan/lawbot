@@ -4,5 +4,5 @@ langchain-community
 langchain-huggingface
 numpy
 sounddevice
-whisper
+openai-whisper
 pyttsx3
