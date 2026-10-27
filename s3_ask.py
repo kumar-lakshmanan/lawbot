@@ -39,7 +39,7 @@ def legal_query(user_question):
     prompt = f"""
 You are an Indian legal education assistant.
 
-Using ONLY provided context.
+Using ONLY provided context. and not other source.
 
 Context:
 {context}
@@ -92,7 +92,7 @@ Second part, a simple string:
 if __name__ == "__main__" :
 
     qry = """
-        Person A borrowed money from Person B and later he issued a cheque. And cheque bounced due to insufficient funds.        
+Inside CIS school, Student Ravi borrowed Satish's Mathematics book. Ravi tore several pages and returned the book. and he did this 5th time and its been reported.
            """
     response = legal_query(qry)
     part1, part2 = response.split("<<SPLITTER>>")

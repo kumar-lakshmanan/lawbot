@@ -1,8 +1,157 @@
-casagrand school laws
+Casegrand International School (CIS) Student Conduct & Discipline Rules
+CIS-S001 : Damage to Another Student's Property
 
-law: destroying or damaging school property
-law section: 1.1
+Rule Description:
+ Any student who intentionally damages, destroys, tears, breaks, writes on, or otherwise harms another student's personal property.
 
-is a punishable offense under the law. Students found guilty of such actions may face disciplinary measures, including suspension or expulsion, and may also be required to compensate for the damages caused.
+Penalty:
 
+Student must replace the damaged item with a new equivalent item.
+Fine of ₹100.
+Mandatory parent meeting with class teacher.
+Written warning recorded.
+CIS-S002 : Repeated Damage to Property
 
+Rule Description:
+ A student who damages another student's property more than once during the academic year.
+
+Penalty:
+
+Replace damaged property.
+Fine of ₹500.
+Parent meeting.
+Suspension for 3 school working days.
+CIS-S003 : Failure to Carry School ID Card
+
+Rule Description:
+ Student enters school premises without official school ID card.
+
+Penalty:
+
+First occurrence: Verbal warning.
+Second occurrence: Written warning.
+Third occurrence: ₹100 fine.
+Fourth occurrence onwards: Parent meeting mandatory.
+CIS-S004 : Bullying or Harassment
+
+Rule Description:
+ Insulting, threatening, mocking, teasing, or harassing another student physically, verbally, or online.
+
+Penalty:
+
+Written warning.
+Parent meeting.
+School counselling session.
+Suspension up to 5 working days for severe cases.
+CIS-S005 : Physical Fighting
+
+Rule Description:
+ Engaging in physical fights, pushing, punching, kicking, or encouraging violence on campus.
+
+Penalty:
+
+Suspension of 3-7 working days.
+Parent meeting.
+Behaviour review by discipline committee.
+CIS-S006 : Classroom Disruption
+
+Rule Description:
+ Intentionally disturbing class, shouting, throwing objects, or preventing teaching activities.
+
+Penalty:
+
+Written warning.
+After three incidents: Parent meeting.
+Community service within school.
+CIS-S007 : Cheating During Examination
+
+Rule Description:
+ Copying answers, possessing unauthorized materials, or assisting others during examinations.
+
+Penalty:
+
+Examination paper cancelled.
+Marks awarded as zero.
+Parent meeting.
+Written disciplinary record.
+CIS-S008 : Plagiarism in Assignments
+
+Rule Description:
+ Submitting copied project work, homework, or assignments as one's own work.
+
+Penalty:
+
+Assignment rejected.
+Resubmission required.
+Written warning.
+CIS-S009 : Use of Mobile Phone During School Hours
+
+Rule Description:
+ Using mobile phones without authorization within school premises.
+
+Penalty:
+
+Device confiscated.
+Parent must collect device.
+₹200 fine for repeated violations.
+CIS-S010 : Damage to School Property
+
+Rule Description:
+ Damaging desks, benches, computers, laboratory equipment, sports equipment, library books, buses, or any school-owned property.
+
+Penalty:
+
+Repair/replacement cost paid by student.
+Fine of ₹500.
+Parent meeting.
+Suspension for severe damage cases.
+CIS-S011 : Library Book Non-Return
+
+Rule Description:
+ Failure to return borrowed library books beyond due date.
+
+Penalty:
+
+₹10 per day late fee.
+Borrowing privileges suspended until return.
+CIS-S012 : False Complaint or False Accusation
+
+Rule Description:
+ Knowingly making false allegations against another student or staff member.
+
+Penalty:
+
+Written warning.
+Parent meeting.
+Suspension in serious cases.
+CIS-S013 : Unauthorized Access to School Systems
+
+Rule Description:
+ Attempting to access restricted school computers, accounts, Wi-Fi networks, or digital services.
+
+Penalty:
+
+Immediate account suspension.
+Parent meeting.
+Possible suspension from school.
+CIS-S014 : Possession of Dangerous Items
+
+Rule Description:
+ Carrying prohibited or potentially dangerous items onto school premises.
+
+Penalty:
+
+Immediate confiscation.
+Parent notification.
+Discipline committee review.
+Possible expulsion for serious violations.
+CIS-S015 : Absenteeism Without Valid Reason
+
+Rule Description:
+ Missing classes without parent or guardian authorization.
+
+Penalty:
+
+Written warning.
+Parent notification.
+Attendance review.

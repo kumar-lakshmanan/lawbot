@@ -3,7 +3,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
-ip = r"G:\pyworkspace\lawbot\docs\lawdocs\Bharatiya Nagarik Suraksha Sanhita, 2023.pdf"
+ip = r"G:\pyworkspace\lawbot\docs\lawdocs\casagrand.pdf"
 loader = PyPDFLoader(ip)
 
 docs = loader.load()
