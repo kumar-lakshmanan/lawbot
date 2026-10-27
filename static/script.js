@@ -18,18 +18,32 @@ const RECORD_DURATION = 20;
 
 // Set fixed width for Tell the Issue button via CSS
 // (removed inline style from HTML)
-tellIssueBtn.style.width = '250px';
-tellIssueBtn.style.flex = 'none';
 
-function showModal(message, showVerify=false, showCancel=false){
-    modalMessage.textContent = message;
-    modalVerify.style.display = showVerify ? 'inline-block' : 'none';
-    modalCancel.style.display = showCancel ? 'inline-block' : 'none';
-    modal.style.display = 'flex';
-}
+async function submitLegalQuery(text) {
+    const legalText = (text || '').trim();
+    if (!legalText) {
+        outputDiv.innerHTML = '<p>Please describe your legal issue before consulting.</p>';
+        queryBox.focus();
+        return;
+    }
 
-function hideModal(){
-    modal.style.display = 'none';
+    outputDiv.innerHTML = '<p>Analyzing your legal query...</p>';
+    try {
+        const response = await fetch('/process', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text: legalText })
+        });
+        const data = await response.json();
+        if (!response.ok) {
+            throw new Error(data.error || 'Request failed');
+        }
+        const markdown = parseServerResponse(data);
+        renderMarkdown(markdown);
+    } catch (err) {
+        console.error(err);
+        outputDiv.innerHTML = `<p>Unable to process the request.</p><p>${err.message || 'Please try again.'}</p>`;
+    }
 }
 
 // Override existing startTimer to use RECORD_DURATION
@@ -143,9 +157,15 @@ function showTranscriptionModal(initialText){
 }
 
 // Attach click event to button
+
 tellIssueBtn.addEventListener('click', () => {
-    startTimer();
-    startRecording();
+    submitLegalQuery(queryBox.value);
+});
+
+queryBox.addEventListener('keydown', (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key === 'Enter') {
+        submitLegalQuery(queryBox.value);
+    }
 });
 
 function setTheme(theme) {
