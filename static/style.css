@@ -44,7 +44,7 @@ html, body {
     margin: 0;
     width: 100%;
     min-height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
     background:
         radial-gradient(circle at top left, var(--hero-glow), transparent 28%),
         linear-gradient(140deg, #dfeaff 0%, var(--bg-main) 30%, #f2f6ff 100%);
@@ -101,13 +101,12 @@ body::before {
 }
 
 .brand-title {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: clamp(2.4rem, 4vw, 5rem);
     line-height: 0.8;
     letter-spacing: 0.18rem;
     color: var(--text-main);
-    text-transform: uppercase;
     position: relative;
     display: inline-block;
 }

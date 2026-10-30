@@ -215,7 +215,7 @@ exportBtn.addEventListener('click', () => {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Legal Compass Export</title>
+    <title>Lexi Global Export</title>
     <style>
         body { font-family: Arial, sans-serif; padding: 32px; background: #f5f8ff; color: #0f2740; }
         .box { background: white; border-radius: 18px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
@@ -247,4 +247,4 @@ clearBtn.addEventListener('click', () => {
 });
 
 setTheme('light');
-renderMarkdown('## Legal Compass\n\nThis is where your legal analysis results will appear.');
+renderMarkdown('## Lexi Global\n\nThis is where your legal analysis results will appear.');

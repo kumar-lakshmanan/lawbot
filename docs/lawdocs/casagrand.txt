@@ -1,4 +1,5 @@
 Casegrand International School (CIS) Student Conduct & Discipline Rules
+
 CIS-S001 : Damage to Another Student's Property
 
 Rule Description:
@@ -10,6 +11,7 @@ Student must replace the damaged item with a new equivalent item.
 Fine of ₹100.
 Mandatory parent meeting with class teacher.
 Written warning recorded.
+
 CIS-S002 : Repeated Damage to Property
 
 Rule Description:
@@ -21,6 +23,7 @@ Replace damaged property.
 Fine of ₹500.
 Parent meeting.
 Suspension for 3 school working days.
+
 CIS-S003 : Failure to Carry School ID Card
 
 Rule Description:
@@ -43,6 +46,7 @@ Written warning.
 Parent meeting.
 School counselling session.
 Suspension up to 5 working days for severe cases.
+
 CIS-S005 : Physical Fighting
 
 Rule Description:
@@ -63,6 +67,7 @@ Penalty:
 Written warning.
 After three incidents: Parent meeting.
 Community service within school.
+
 CIS-S007 : Cheating During Examination
 
 Rule Description:
@@ -74,6 +79,7 @@ Examination paper cancelled.
 Marks awarded as zero.
 Parent meeting.
 Written disciplinary record.
+
 CIS-S008 : Plagiarism in Assignments
 
 Rule Description:
@@ -94,6 +100,7 @@ Penalty:
 Device confiscated.
 Parent must collect device.
 ₹200 fine for repeated violations.
+
 CIS-S010 : Damage to School Property
 
 Rule Description:
@@ -105,6 +112,7 @@ Repair/replacement cost paid by student.
 Fine of ₹500.
 Parent meeting.
 Suspension for severe damage cases.
+
 CIS-S011 : Library Book Non-Return
 
 Rule Description:
@@ -114,6 +122,7 @@ Penalty:
 
 ₹10 per day late fee.
 Borrowing privileges suspended until return.
+
 CIS-S012 : False Complaint or False Accusation
 
 Rule Description:
@@ -124,6 +133,7 @@ Penalty:
 Written warning.
 Parent meeting.
 Suspension in serious cases.
+
 CIS-S013 : Unauthorized Access to School Systems
 
 Rule Description:
@@ -134,6 +144,7 @@ Penalty:
 Immediate account suspension.
 Parent meeting.
 Possible suspension from school.
+
 CIS-S014 : Possession of Dangerous Items
 
 Rule Description:
@@ -145,6 +156,7 @@ Immediate confiscation.
 Parent notification.
 Discipline committee review.
 Possible expulsion for serious violations.
+
 CIS-S015 : Absenteeism Without Valid Reason
 
 Rule Description:
